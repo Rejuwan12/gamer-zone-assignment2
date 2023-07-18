@@ -1,4 +1,4 @@
-@media screen and (max-width:400px) {
+@media screen and (max-width:415px) {
 
     .nav-container{
      flex-direction: column;
@@ -18,4 +18,15 @@
     .icon{
         width: 100%;
     }
+
+    .banner-container{
+        flex-direction:column-reverse;
+    }
+    .banner-text, .banner-image{
+        width: 100%;
+    }
+.banner-text h2{
+    font-size: 30px;
+}
+
 }
