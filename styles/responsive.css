@@ -1,0 +1,21 @@
+@media screen and (max-width:400px) {
+
+    .nav-container{
+     flex-direction: column;
+     margin-top: 20px;
+    }
+    .nav-item-container{
+        flex-direction: column;
+        width: 80%;
+        
+       
+    }
+    .nav-item-container a{
+       margin-top: 20px;
+        
+       
+    }
+    .icon{
+        width: 100%;
+    }
+}
