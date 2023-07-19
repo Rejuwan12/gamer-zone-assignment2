@@ -193,8 +193,10 @@ background-color: #FFF;
    display: flex;
    justify-content: center;
    margin-bottom: 20px;
+   
 }
 .comment-container :hover{
+    border: 1px solid ;
     border-radius: 20px;
     color: #FF42A5;
     
@@ -222,9 +224,10 @@ background-color: #FFF;
    margin-left: 100px;
    display: flex;
    justify-content: center;
-   margin-bottom: 20px;
+   margin-bottom: 40px;
 }
-.comment-container :hover{
+.comment-container2 :hover{
+    border: 1px solid;
     border-radius: 20px;
     color: #FF42A5;
     
