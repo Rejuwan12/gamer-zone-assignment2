@@ -35,6 +35,42 @@
     
   
 }
+
+.banner-2{
+  display: grid;
+  flex-direction: column;
+  width: 100%;
+}
+
+.banner-2-text{
+   padding: 0%;
+   width: 100%;
+ 
+ 
+   
+}
+.banner-2-img{
+  padding: 0%;
+  width: 100%;
+  
+
+}
+.banner-2-title{
+  font-size: 25px;
+
+}
+.banner-2 p{
+  display: flex;
+  margin-left: 20px
+  
+}
+.pera-img{
+ position: ;
+ width: 80px;
+ 
+
+
+}
    .comment-container{
   flex-direction: column;
   display: grid;
