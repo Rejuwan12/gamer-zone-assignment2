@@ -155,12 +155,10 @@ background-color: #FFF;
 .banner-2{
     width: 100%;
     max-width: 1150px;
-    border: 1px solid red;
     display: flex;
     margin: 0 auto;
 }
 .banner-2-text{
-    border: 1px solid black;
     width: 50%;
     text-align: center;
     padding: 110px;
@@ -169,7 +167,6 @@ background-color: #FFF;
     font-size: 45px;
 }
 .banner-2-img{
-    border: 1px solid greenyellow;
     width: 
 
 }
@@ -191,14 +188,43 @@ background-color: #FFF;
 
 .comment-container{
    cursor: pointer;
-   margin-top: 100px;
+   margin-top: 150px;
    margin-left: 100px;
    display: flex;
    justify-content: center;
-   margin-bottom: 30px;
+   margin-bottom: 20px;
 }
 .comment-container :hover{
-    border: 1px solid;
+    border-radius: 20px;
+    color: #FF42A5;
+    
+    
+}
+
+.comment-img{
+    font-size: 15px;
+    display: flex;
+    margin-right: 50px;
+}
+.comment-img img{
+    font-size: 20px;
+}
+.comment-container p{
+    align-items: center;
+    
+}
+.comment-container p{
+    margin-left:10px;
+}
+.comment-container2{
+   cursor: pointer;
+   margin-top: 10px;
+   margin-left: 100px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+.comment-container :hover{
     border-radius: 20px;
     color: #FF42A5;
     
@@ -281,10 +307,10 @@ background-color: #FFF;
 }
 .list-item2 a{
     text-decoration: none;
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.60);
 }
 .copy{
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.60);
     
 }
 /* footer end */
