@@ -67,7 +67,7 @@ nav{
     max-width: 1150px;
     min-height: 50px;
     display: flex;
-    background-image: url(../images/banner-background.png);
+    background-image: url("../images/banner-background.png");
 }
 .banner-text{
 width: 50%;
@@ -96,10 +96,8 @@ background-color: #FFF;
 }
 
 
-.description{
-    /* font-size: 16px; */
-    /* margin-bottom: 20px; */
-}
+
+
  .btn-primary{ 
     background-color:#FF42A5;
     padding: 10px 23px;
@@ -118,6 +116,8 @@ background-color: #FFF;
 } 
 /* banner section end */
 
+
+
 .title{
     font-size: 11px;
     text-align: center;
@@ -125,6 +125,7 @@ background-color: #FFF;
     margin-bottom: 30px;
    
 }
+/* card section  */
 
 
 .grid-container{
@@ -137,8 +138,104 @@ background-color: #FFF;
     text-align: center;
 }
 
-
 .single-product img{
     width: 100%;
     height: 85%;
 }
+
+
+/* card section end */
+
+
+
+/* comment container */
+
+.comment-container{
+   cursor: pointer;
+   margin-top: 60px;
+   margin-left: 100px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.comment-img{
+    font-size: 15px;
+    display: flex;
+    margin-right: 50px;
+}
+.comment-img img{
+    font-size: 20px;
+}
+.comment-container p{
+    align-items: center;
+    
+}
+.comment-container p{
+    margin-left:10px;
+}
+
+
+/* comment section end */
+
+
+
+
+
+
+
+
+/* footer section start */
+.footer-container{
+   
+    background-color: #0B0223;;
+    width:100%;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+}
+.footer-img{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer-img h4{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.list-item{
+    justify-content: center;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 50px;
+  
+    
+    
+}
+.icons{
+    gap: 50px;
+    
+}
+.list-item a{
+    text-decoration: none;
+    color: #FFF;
+}
+.list-item2{
+    
+   justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap:50px
+}
+.list-item2 a{
+    text-decoration: none;
+    color: #FFF;
+}
+.copy{
+    color: #FFF;
+    
+}
+/* footer end */

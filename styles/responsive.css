@@ -25,14 +25,45 @@
     .banner-text, .banner-image{
         width: 100%;
     }
-.banner-text h2{
+    .banner-text h2{
     font-size: 30px;
 }
-.grid-container{
+    .grid-container{
     padding: 10px;
     margin: 20px;
     grid-template-columns: repeat(1,1fr);
     
   
 }
+   .comment-container{
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+  .footer-container{
+    width: 100%;
+    width: 100%;
+  flex-direction: column;
+}
+  .list-item{
+    font-size: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+   .list-item2{
+    font-size: 10px;
+    gap: 10px;
+    
+   
+}
+  .copy{
+    font-size: 10px;
+}
+
 }
