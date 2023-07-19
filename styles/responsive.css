@@ -28,5 +28,11 @@
 .banner-text h2{
     font-size: 30px;
 }
-
+.grid-container{
+    padding: 10px;
+    margin: 20px;
+    grid-template-columns: repeat(1,1fr);
+    
+  
+}
 }
