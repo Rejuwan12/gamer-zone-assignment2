@@ -145,8 +145,18 @@ background-color: #FFF;
     width: 100%;
     height: 85%;
 }
-
-
+.iconss {
+    border: 1px solid;
+    color: white;
+    position: relative;
+    text-align: center;
+    bottom: 200px;
+   
+  }
+  .iconss :hover{
+     background-color: #0B0223;
+  }
+  
 /* card section end */
 
 
